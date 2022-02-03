@@ -7,6 +7,6 @@ steps:
     plugins:
       - docker-compose#v3.9.0:
           run: app
-    parallelism: 20
+    parallelism: 3
     agents:
       queue: $BUILDKITE_AGENT_META_DATA_QUEUE
